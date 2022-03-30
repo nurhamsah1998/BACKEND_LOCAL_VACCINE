@@ -13,6 +13,7 @@ app.post('/', async (req, res) => {
     address: req.body.address,
     dad_name: req.body.dad_name,
     mom_name: req.body.mom_name,
+    gender: req.body.gender,
     date: waktu,
     matematika: req.body.matematika || null,
     kejuruan: req.body.kejuruan || null,
