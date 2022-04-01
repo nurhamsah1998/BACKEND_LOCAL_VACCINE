@@ -2,17 +2,21 @@ const express = require('express');
 const app = express();
 const moment = require('moment');
 const fs = require('fs');
-const { ERROR_PHONE_VALIDATION, NONE } = require('../../Message/message.js');
+const dataBase = require('../dataStudent.json');
+const uuid = require('uuid');
+const { ERROR_PHONE_VALIDATION, NONE, SUCCESS_POST_NEW_STUDENT } = require('../../Message/message.js');
 
 app.post('/', async (req, res) => {
-  var waktu = moment().format('MMMM Do YYYY, h:mm:ss a');
+  var waktu = moment().format('LLL');
   const body = {
-    id: req.body.id,
+    id: uuid.v1(),
+    itemNo: dataBase.length + 1,
     name: req.body.name,
     phone: req.body.phone,
+    email: req.body.email,
     address: req.body.address,
-    dad_name: req.body.dad_name,
-    mom_name: req.body.mom_name,
+    dad: req.body.dad,
+    mom: req.body.mom,
     gender: req.body.gender,
     date: waktu,
     matematika: req.body.matematika || null,
@@ -20,7 +24,7 @@ app.post('/', async (req, res) => {
     bahasa_indonesia: req.body.bahasa_indonesia || null,
     pendidikan_agama: req.body.pendidikan_agama || null,
   };
-  const raw = fs.readFileSync('Server/dataBase.json', 'utf-8');
+  const raw = fs.readFileSync('Server/dataStudent.json', 'utf-8');
   const file = JSON.parse(raw);
   const duplicat = file.find((i) => i.phone === req.body.phone);
   if (duplicat) {
@@ -28,9 +32,8 @@ app.post('/', async (req, res) => {
     return false;
   } else {
     file.push(body);
-    fs.writeFileSync('Server/dataBase.json', JSON.stringify(file));
-    res.send('Success Post it!');
-    console.log(body);
+    fs.writeFileSync('Server/dataStudent.json', JSON.stringify(file));
+    res.send(SUCCESS_POST_NEW_STUDENT);
   }
 });
 module.exports = app;

@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const port = process.env.port || 8000;
 const postRoter = require('./Server/Router/post.js');
 const remove = require('./Server/Router/delete.js');
-const dataBase = require('./Server/dataBase.json');
+const dataBase = require('./Server/dataStudent.json');
 
 app.use(cors());
 app.use(bodyParser.json());
