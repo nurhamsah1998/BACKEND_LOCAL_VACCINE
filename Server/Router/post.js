@@ -16,6 +16,30 @@ app.post('/', async (req, res) => {
     phone: req.body.phone,
     dateIn: waktu,
     payment: req.body.payment,
+    subjectValue: [
+      {
+        language: req.body.language || null,
+      },
+      {
+        math: req.body.math || null,
+      },
+      {
+        vocational: req.body.vocational || null,
+      },
+      {
+        biology: req.body.biology || null,
+      },
+      {
+        physics: req.body.physics || null,
+      },
+      {
+        religious: req.body.religious || null,
+      },
+      {
+        sociology: req.body.sociology || null,
+      },
+    ],
+    studentHelp: req.body.studentHelp || false,
   };
   const raw = fs.readFileSync('Server/dataStudent.json', 'utf-8');
   const file = JSON.parse(raw);
