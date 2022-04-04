@@ -10,23 +10,17 @@ app.post('/', async (req, res) => {
   var waktu = moment().format('LLL');
   const body = {
     id: uuid.v1(),
-    itemNo: dataBase.length + 1,
-    name: req.body.name,
-    phone: req.body.phone,
+    itemNum: dataBase.length + 1,
+    userProfile: [{ name: req.body.name }, { gender: req.body.gender }, { birt: req.body.birt }, { address: req.body.address }, { dad: req.body.dad }, { mom: req.body.mom }],
     email: req.body.email,
-    address: req.body.address,
-    dad: req.body.dad,
-    mom: req.body.mom,
-    gender: req.body.gender,
-    date: waktu,
-    matematika: req.body.matematika || null,
-    kejuruan: req.body.kejuruan || null,
-    bahasa_indonesia: req.body.bahasa_indonesia || null,
-    pendidikan_agama: req.body.pendidikan_agama || null,
+    phone: req.body.phone,
+    dateIn: waktu,
+    payment: req.body.payment,
   };
   const raw = fs.readFileSync('Server/dataStudent.json', 'utf-8');
   const file = JSON.parse(raw);
   const duplicat = file.find((i) => i.phone === req.body.phone);
+  // Object.assign(body, { userID: uuid.v1() }, { date: waktu });
   if (duplicat) {
     res.status(666).send(ERROR_PHONE_VALIDATION);
     return false;
