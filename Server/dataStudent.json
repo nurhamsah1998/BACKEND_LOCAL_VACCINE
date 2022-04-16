@@ -1,1 +1,157 @@
-[{"id":"bc8800d0-b3f2-11ec-ac54-57c964a5a28e","itemNum":1,"userProfile":[{"name":"nurhamsah"},{"gender":"laki-laki"},{"birt":"14 juli 2019"},{"address":"ngadi mojo kediri"},{"dad":"mislan"},{"mom":"hartatik"}],"email":"nurhamsah@gmail.com","phone":"081213221343","dateIn":"April 4, 2022 3:39 PM","payment":[{"SPP_payment":"paid"},{"BUILDING_payment":"paid"},{"UNIFORM_payment":"not_paid"},{"INSURANCE_payment":"paid"}],"subjectValue":[{"language":null},{"math":null},{"vocational":null},{"biology":null},{"physics":null},{"religious":null},{"sociology":null}],"studentHelp":true},{"id":"e1571180-b3f2-11ec-ab53-895f2ec945d0","itemNum":2,"userProfile":[{"name":"hamsah"},{"gender":"perempuan"},{"birt":"14 juli 2019"},{"address":"ngadi mojo kediri"},{"dad":"mislan"},{"mom":"hartatik"}],"email":"nurhamsah@gmail.com","phone":"081213221346","dateIn":"April 4, 2022 3:40 PM","payment":[{"SPP_payment":"paid"},{"BUILDING_payment":"paid"},{"UNIFORM_payment":"not_paid"},{"INSURANCE_payment":"paid"}],"subjectValue":[{"language":null},{"math":null},{"vocational":null},{"biology":null},{"physics":null},{"religious":null},{"sociology":null}],"studentHelp":true},{"id":"e920ef30-b3f2-11ec-967e-e96e3010eb32","itemNum":3,"userProfile":[{"name":"firy"},{"gender":"perempuan"},{"birt":"14 juli 2019"},{"address":"ngadi mojo kediri"},{"dad":"mislan"},{"mom":"hartatik"}],"email":"nurhamsahdew@gmail.com","phone":"081213221347","dateIn":"April 4, 2022 3:40 PM","payment":[{"SPP_payment":"paid"},{"BUILDING_payment":"paid"},{"UNIFORM_payment":"not_paid"},{"INSURANCE_payment":"paid"}],"subjectValue":[{"language":90},{"math":90},{"vocational":89},{"biology":89},{"physics":34},{"religious":70},{"sociology":99}],"studentHelp":false},{"id":"ef472f00-b3f2-11ec-be69-bba7f1dc7b3c","itemNum":4,"userProfile":[{"name":"ihsan"},{"gender":"laki-laki"},{"birt":"14 juli 2019"},{"address":"ngadi mojo kediri"},{"dad":"mislan"},{"mom":"hartatik"}],"email":"nurhamsahdew@gmail.com","phone":"081213221340","dateIn":"April 4, 2022 3:40 PM","payment":[{"SPP_payment":"paid"},{"BUILDING_payment":"paid"},{"UNIFORM_payment":"not_paid"},{"INSURANCE_payment":"paid"}],"subjectValue":[{"language":40},{"math":80},{"vocational":70},{"biology":75},{"physics":10},{"religious":90},{"sociology":89}],"studentHelp":true},{"id":"874d1580-b3f8-11ec-8ee1-7b1d98afa06d","itemNum":5,"userProfile":[{"name":"jumadi"},{"gender":"laki-laki"},{"birt":"14 juli 1998"},{"address":"ngadi mojo kediri"},{"dad":"mislan"},{"mom":"hartatik"}],"email":"asdasd@gmail.com","phone":"099999099987","dateIn":"April 4, 2022 4:20 PM","payment":[{"SPP_payment":"paid"},{"BUILDING_payment":"paid"},{"UNIFORM_payment":"not_paid"},{"INSURANCE_payment":"paid"}],"subjectValue":[{"language":null},{"math":null},{"vocational":null},{"biology":null},{"physics":null},{"religious":null},{"sociology":null}],"studentHelp":false}]
+[
+  {
+    "id": "bc8800d0-b3f2-11ec-ac54-57c964a5a28e",
+    "itemNum": 1,
+    "userProfile": [
+      { "name": "nurhamsah" },
+      { "gender": "laki-laki" },
+      { "birt": "14 juli 2019" },
+      { "address": "ngadi mojo kediri" },
+      { "dad": "mislan" },
+      { "mom": "hartatik" }
+    ],
+    "email": "nurhamsah@gmail.com",
+    "phone": "081213221343",
+    "dateIn": "April 4, 2022 3:39 PM",
+    "payment": [
+      { "SPP_payment": "paid" },
+      { "BUILDING_payment": "paid" },
+      { "UNIFORM_payment": "not_paid" },
+      { "INSURANCE_payment": "paid" }
+    ],
+    "subjectValue": [
+      { "language": null },
+      { "math": null },
+      { "vocational": null },
+      { "biology": null },
+      { "physics": null },
+      { "religious": null },
+      { "sociology": null }
+    ],
+    "studentHelp": true
+  },
+  {
+    "id": "e1571180-b3f2-11ec-ab53-895f2ec945d0",
+    "itemNum": 2,
+    "userProfile": [
+      { "name": "hamsah" },
+      { "gender": "perempuan" },
+      { "birt": "14 juli 2019" },
+      { "address": "ngadi mojo kediri" },
+      { "dad": "mislan" },
+      { "mom": "hartatik" }
+    ],
+    "email": "nurhamsah@gmail.com",
+    "phone": "081213221346",
+    "dateIn": "April 4, 2022 3:40 PM",
+    "payment": [
+      { "SPP_payment": "paid" },
+      { "BUILDING_payment": "paid" },
+      { "UNIFORM_payment": "not_paid" },
+      { "INSURANCE_payment": "paid" }
+    ],
+    "subjectValue": [
+      { "language": null },
+      { "math": null },
+      { "vocational": null },
+      { "biology": null },
+      { "physics": null },
+      { "religious": null },
+      { "sociology": null }
+    ],
+    "studentHelp": true
+  },
+  {
+    "id": "e920ef30-b3f2-11ec-967e-e96e3010eb32",
+    "itemNum": 3,
+    "userProfile": [
+      { "name": "firy" },
+      { "gender": "perempuan" },
+      { "birt": "14 juli 2019" },
+      { "address": "ngadi mojo kediri" },
+      { "dad": "mislan" },
+      { "mom": "hartatik" }
+    ],
+    "email": "nurhamsahdew@gmail.com",
+    "phone": "081213221347",
+    "dateIn": "April 4, 2022 3:40 PM",
+    "payment": [
+      { "SPP_payment": "paid" },
+      { "BUILDING_payment": "paid" },
+      { "UNIFORM_payment": "not_paid" },
+      { "INSURANCE_payment": "paid" }
+    ],
+    "subjectValue": [
+      { "language": 90 },
+      { "math": 90 },
+      { "vocational": 89 },
+      { "biology": 89 },
+      { "physics": 34 },
+      { "religious": 70 },
+      { "sociology": 99 }
+    ],
+    "studentHelp": false
+  },
+  {
+    "id": "ef472f00-b3f2-11ec-be69-bba7f1dc7b3c",
+    "itemNum": 4,
+    "userProfile": [
+      { "name": "ihsan" },
+      { "gender": "laki-laki" },
+      { "birt": "14 juli 2019" },
+      { "address": "ngadi mojo kediri" },
+      { "dad": "mislan" },
+      { "mom": "hartatik" }
+    ],
+    "email": "nurhamsahdew@gmail.com",
+    "phone": "081213221340",
+    "dateIn": "April 4, 2022 3:40 PM",
+    "payment": [
+      { "SPP_payment": "paid" },
+      { "BUILDING_payment": "paid" },
+      { "UNIFORM_payment": "not_paid" },
+      { "INSURANCE_payment": "paid" }
+    ],
+    "subjectValue": [
+      { "language": 40 },
+      { "math": 80 },
+      { "vocational": 70 },
+      { "biology": 75 },
+      { "physics": 10 },
+      { "religious": 90 },
+      { "sociology": 89 }
+    ],
+    "studentHelp": true
+  },
+  {
+    "id": "874d1580-b3f8-11ec-8ee1-7b1d98afa06d",
+    "itemNum": 5,
+    "userProfile": [
+      { "name": "jumadi" },
+      { "gender": "laki-laki" },
+      { "birt": "14 juli 1998" },
+      { "address": "ngadi mojo kediri" },
+      { "dad": "mislan" },
+      { "mom": "hartatik" }
+    ],
+    "email": "asdasd@gmail.com",
+    "phone": "099999099987",
+    "dateIn": "April 4, 2022 4:20 PM",
+    "payment": [
+      { "SPP_payment": "paid" },
+      { "BUILDING_payment": "paid" },
+      { "UNIFORM_payment": "not_paid" },
+      { "INSURANCE_payment": "paid" }
+    ],
+    "subjectValue": [
+      { "language": null },
+      { "math": null },
+      { "vocational": null },
+      { "biology": null },
+      { "physics": null },
+      { "religious": null },
+      { "sociology": null }
+    ],
+    "studentHelp": false
+  }
+]
